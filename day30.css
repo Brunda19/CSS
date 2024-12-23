@@ -1,0 +1,27 @@
+#Parent{
+    height: 600px;
+    width: 800px;
+    border: 1px dotted black;
+    display: flex;
+    flex-direction: row;      /*flex-direction,flex-wrap related to parent
+    /*flex-wrap:column;*/
+    /*flex-wrap: nowrap;*/
+    flex-wrap: wrap;
+   /* align-items: start;*/
+   /*align-items: end;*/
+   align-items: center;
+   justify-content: center;
+}
+
+#C1,#C2,#C3{
+    height:100px;
+    width:200px;
+    border:1px solid black;
+}
+
+/* flex-grow,flex-shrink,flex-basis is only for child*/
+#C1{ 
+   /* flex-grow: 1;*/
+   /* flex-shrink: 1;*/
+    flex-basis: 1;
+}

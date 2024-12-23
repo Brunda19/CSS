@@ -1,0 +1,15 @@
+body{
+    height:100px;
+    width: 100px;
+
+}
+
+#new form{
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+    background-position: no-repeat; 
+    font-size: 2px;
+    font-weight: 0px;
+    text-align: center;
+}

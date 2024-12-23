@@ -1,0 +1,18 @@
+#Parent{
+    width:400px;
+    height: 400px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+    overflow:auto;
+}
+
+img{
+    position: static;
+    /* position:sticky;*/
+    /*position:fixed;*/
+    top:2%;
+    left:5%;
+    height: 50px;
+    width:50px;
+}

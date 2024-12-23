@@ -1,0 +1,24 @@
+header{
+    height: 90px;
+    width: 1350px;
+    border: 1px dotted black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    position: fixed;
+}
+#c1,#c2,#c3,#c4,#c5,#c6{
+    height: 90px;
+    width:100px;
+    border: 1px solid black;
+    align-items: center;
+    background-color: lightblue;
+    text-align: center;
+}
+#c2{
+    flex-grow: 1;
+    flex-basis: 1;
+
+}
