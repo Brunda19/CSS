@@ -1,0 +1,42 @@
+div{
+    border-style: solid;
+    border-width: 2px;
+}
+
+#parent{
+    position:relative;
+    height:300px;
+    width:600px;
+}
+#childone{
+    position: absolute;
+    height: 159px;
+    width: 307px;
+    background-color: azure;
+    border-radius: 2px;
+}
+#childtwo{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left:50%;
+    background-color: blueviolet;
+    border-radius: 2px solid black;
+}
+#childthree{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    background-color: aqua;
+    border-radius: 2px solid black;
+}
+#childfour{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left:50%;
+    background-color: aquamarine;
+    border-radius: 2px solid black;
+}

@@ -1,0 +1,57 @@
+#Parent{
+    height: 200px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 2px solid blueviolet;
+    animation-name:myanimation;
+    background-color:orange;
+    animation-duration: 10s;
+    animation-iteration-count:3;
+    /**animation-delay: 10s;*/
+    animation-timing-function: ease-in-out;
+    /*animation-timing-function: ease-in; */   /* its a timing fucntion*/
+    animation-name:  name duration timing function delay iteration-count direction fill-mode;
+}  
+h1{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+    animation-name: h1animation;
+    animation-duration: 10s;
+    animation-iteration-count:3;
+    animation-delay:10s;
+}
+
+@keyframes myanimation{
+    10%{opacity: 0.2;  font-size: large; margin-left:100px;}
+    30%{opacity: 0.3;  font-size: medium; margin-left:200px;}
+    50%{opacity: 0.7;  font-size: small; margin-left:300px;}
+    70%{opacity: 0.3;  font-size:medium; margin-left:400px;}
+    90%{opacity: 0.7;  font-size: large; margin-left:500px;}
+}
+
+@keyframes h1animation{
+    0%{
+        transform: scale(.3);
+        background-color:pink;
+        border-radius: 100%;
+    }
+    50%{
+        transform: scale(.6);
+        background-color: yellow;
+        border-radius: 150%;
+    }
+    100%{
+        transform: scale(1.5);
+        background-color: blueviolet;
+    }
+    10%{font-size:10px; color: black;}
+    30%{font-size:20px; color: palevioletred;}
+    50%{font-size:30px; color:green;}
+    70%{font-size:40px; color: yellow;}
+    90%{font-size:60px; color: blue;}
+}
+ 

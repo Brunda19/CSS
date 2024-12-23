@@ -1,0 +1,34 @@
+#parent{
+    position: relative;
+    height: 600px;
+    width:300px;
+}
+#Child1{
+    position: absolute;
+    height: 168px;
+    width: 195px;
+    background-color: aqua;
+    border-style: groove;
+    border-width: 5px;
+    border-color: black;
+}
+#Child2{
+    position: absolute;
+    height: 184px;
+    width: 193px;
+    top: 176px;
+    background-color: blue;
+    border-style: groove;
+    border-width: 5px;
+    border-color: black;
+}
+#Child3{
+    position: absolute;
+    height: 351px;
+    width: 200px;
+    left: 201px;
+    background-color: pink;
+    border-style: groove;
+    border-width: 5px;
+    border-color: black;
+}

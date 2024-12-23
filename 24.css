@@ -1,0 +1,17 @@
+
+#parent{
+    position:relative;
+    height:300px;
+    width:600px;
+}
+#childone{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+#childtwo{
+    position: absolute;
+    width:50%;
+    height:100%;
+    left:50%;
+}

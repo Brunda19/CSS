@@ -1,0 +1,24 @@
+
+h1{
+    display: inline;
+}    
+#parent{
+    position:relative;
+    height:300px;
+    width:600px;
+}
+#childone{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    border-style: dashed;
+}
+#childtwo{
+    position: absolute;
+    width:50%;
+    height:100%;
+    left:50%;
+    background-color: blueviolet;
+    border-style: dashed;
+}    

@@ -1,0 +1,20 @@
+#parent{
+    height:300px;
+    width:500px;
+    /*border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border:1px solid black;*/
+
+    border-radius: 20px;
+    border-bottom: 1px dashed black;
+    margin: 30px 10px 25px 30px;
+    padding: 8px 12px ;
+    background-color: yellowgreen;
+    color: blue;
+    background-image: url(../images/1.jpeg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left center;
+
+}
