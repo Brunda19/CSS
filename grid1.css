@@ -1,0 +1,29 @@
+#parent{
+    border: 1px solid black;
+    width:500px;
+    height:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#child1{
+    border: 1px solid black;
+    width:200px;
+    height: 200px;
+    background-color: aqua;
+    transition: all ease 3s;
+}
+#child1:hover{
+    transform: perspective(50deg) rotatez(20deg);
+    /*transform: rotateY(360deg);  #2d tranform
+    transform: rotateZ(90deg);*/
+    /* transform: skew(90deg);
+    transform: skewY(90deg)rotate x,y,z;
+    transform: perspective(50deg)skewZ(20deg);
+    transform: scale(2);
+    transform: scaleX(3);
+    transform: translate(100px);  #move beside the elements x,y,z 
+    transform: translateX(100px);
+    transform: translateY(100px) ;*/
+    transform: perspective(50px) translateZ(-100px) rotate(90deg) skew(360deg) scale(1,5);
+}

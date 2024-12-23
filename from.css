@@ -1,0 +1,19 @@
+#mypid{
+    color:blueviolet;
+}
+
+#text{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-style: italic;
+    font-stretch: extra-condensed;
+
+}
+h2{
+    text-align: center;
+    text-transform:uppercase;
+    text-decoration: dashed;
+    text-indent: 25px;
+    text-wrap: wrap;
+}

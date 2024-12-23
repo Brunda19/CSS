@@ -1,0 +1,46 @@
+#P1{
+    position:relative;
+    height:600px;
+    width:300px;
+}    
+
+#C1{
+    position: absolute;
+    height: 180px;
+    width: 180px;
+    background-color: pink;
+    border-style:double;
+}
+#C2{
+    position: absolute;
+    height: 150px;
+    width: 180px;
+    top: 30%;
+    background-color: blueviolet;
+    border-style:double;
+}
+#C3{
+    position: absolute;
+    width: 60%;
+    height: 45%;
+    top: 55%;
+    background-color: aqua;
+    border-style:double;
+}
+#C4{
+    position: absolute;
+    width: 66%;
+    height: 70%;
+    left: 60%;
+    background-color: blue;
+    border-style:double;
+}
+#C5{
+    position: absolute;
+    width: 66%;
+    height: 30%;
+    top: 70%;
+    left: 60%;
+    background-color:gray;
+    border-style:double;
+}
